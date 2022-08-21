@@ -9,6 +9,6 @@ data class ParkingExpense(
     var uid: Int = 0,
     var longtitudeParkingPlace: Long = 0L,
     var latitudeParkingPlace: Long = 0L,
-    var timeParkingPeriod: String = "",
+    var timeParkingPeriod: String = "",// период времени почему в стринге? може Long?
     var mapScreenPlaceURL: String = ""
 ) : Serializable
